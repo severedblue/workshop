@@ -1,0 +1,9 @@
+sub solution {
+    my ($A, $B, $K)=@_;
+    # write your code in Perl 5.18
+    my $count = 0;
+    for my $k ($A..$B) {
+        $count++ if( ($k%$K)==0 );
+    }    
+    return $count;
+}
