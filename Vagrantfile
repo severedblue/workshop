@@ -42,5 +42,10 @@ Vagrant.configure("2") do |config|
      sudo apt-get install golang
      sudo apt-get install python3.6
      sudo apt install python3-pip
+     pip install virtualenv
+     pip install requests
+     pip install selenium
+     pip install paramiko
+     python -m pip install –upgrade pip
    SHELL
 end
